@@ -61,9 +61,9 @@ Click Yes to proceed or No to exit.
 ***Controls:***
 
 **Left Arrow**: Move the player ship left.
-**Right Arrow: Move the player ship right.
-**Spacebar: Shoot bullets to destroy enemies.
-**Quit: Close the window to exit the game.
+**Right Arrow**: Move the player ship right.
+**Spacebar**: Shoot bullets to destroy enemies.
+**Quit**: Close the window to exit the game.
 
 **Objective:**
 Shoot down enemy aliens to increase your score.
@@ -82,7 +82,7 @@ In the listener terminal **(nc -l 8888)**, you can send commands to test file sy
 **exit**: Close the connection.
 
 
-### Cleanup
+### 5. Cleanup
 The game saves settings to auto-restart on system boot. To remove these settings:
 
 ```bash
