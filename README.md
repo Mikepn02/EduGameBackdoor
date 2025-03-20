@@ -28,8 +28,8 @@ cd  EduGameBackdoor
 ### 3. Verify Assets
 Ensure the following image files are in the project directory:
 
-***plane.png***
-**alien.png***
+- `plane.png`
+- `alien.png`
 
 ## NOTE: If these files are missing, the game will use basic shapes (a triangle for the player and a circle for enemies) as a fallback.
 
@@ -60,10 +60,10 @@ Click Yes to proceed or No to exit.
 
 ***Controls:***
 
-**Left Arrow**: Move the player ship left.
-**Right Arrow**: Move the player ship right.
-**Spacebar**: Shoot bullets to destroy enemies.
-**Quit**: Close the window to exit the game.
+- `Left Arrow`: Move the player ship left.<br>
+- `Right Arrow`: Move the player ship right.<br>
+- `Spacebar`: Shoot bullets to destroy enemies.<br>
+- `Quit`: Close the window to exit the game.<br>
 
 **Objective:**
 Shoot down enemy aliens to increase your score.
@@ -77,9 +77,9 @@ Your final score will be displayed.
 ### Using the Networking Feature
 The game connects to **127.0.0.1:8888** to simulate network communication.
 In the listener terminal **(nc -l 8888)**, you can send commands to test file system interactions:
-**ls**: List files in the current directory.
-**cd** ..: Change to the parent directory.
-**exit**: Close the connection.
+- `ls`: List files in the current directory.<br>
+- `cd` ..: Change to the parent directory.<br>
+- `exit`: Close the connection.
 
 
 ### 5. Cleanup
@@ -91,6 +91,6 @@ python3 space_invaders_cleanup.py
 
 This script will remove the auto-restart settings from your system:
 
-**Windows**: Removes the Registry entry.
-**Linux**: Deletes the .desktop file from **~/.config/autostart**.
-**macOS**: Removes the LaunchAgent from **~/Library/LaunchAgents**.
+-`Windows`: Removes the Registry entry.
+- `Linux`: Deletes the .desktop file from **~/.config/autostart**.
+- `macOS`: Removes the LaunchAgent from **~/Library/LaunchAgents**.
